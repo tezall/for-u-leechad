@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gothic Birthday</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- FULL SCREEN GIF -->
+<div class="gif-bg">
+  <img src="MeetBaymax.gif" alt="bg">
+</div>
+
+<!-- LOADING SCREEN -->
+<div id="loader">
+  <h1 class="scan-text">Initializing System...</h1>
+
+  <div class="progress-bar">
+    <div class="progress"></div>
+  </div>
+
+  <p id="percent">0%</p>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="main" class="hidden">
+  <h1 class="complete-text">SCAN COMPLETE</h1>
+
+  <button id="tapBtn">tap me ur wifey says TAP.</button>
+
+  <div id="birthday" class="hidden">
+    <h1 class="birthday-text">HAPPY BIRTHDAY</h1>
+    <div class="slice"></div>
+  </div>
+</div>
+
+<audio id="loadingSound" src="myinstants.mp3"></audio>
+<audio id="completeSound" src="myinstants 2.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
